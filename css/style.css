@@ -197,7 +197,6 @@ footer a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 20px;
-    background-color: #333;
     border-radius: 10px;
 }
 
@@ -216,7 +215,7 @@ footer a:hover {
 }
 
 .resource-caption {
-    background-color: #3b7d8a; 
+    background-color: #0B4F60; 
     color: white;
     font-weight: bold;
     padding: 10px;
@@ -225,9 +224,19 @@ footer a:hover {
     height: 100%;
 }
 
+.resource-caption a {
+    color: #FFCB05; 
+    font-weight: bold;
+}
+
+a[href$="uhs.umich.edu/"] {
+    color: #005A9C; 
+}
+
+
 footer a {
     color: #b38e00;
-    text-decoration: underline;
+    text-decoration: underline; 
     font-weight: bold; 
 }
 
