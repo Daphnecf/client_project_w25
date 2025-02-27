@@ -225,6 +225,13 @@ footer a:hover {
     height: 100%;
 }
 
+footer a {
+    color: #b38e00;
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+
 
 
 @media (min-width: 768px) {
