@@ -18,7 +18,7 @@ body {
 
 .skip {
     position: absolute;
-    top: -40px;
+    top: -100px;
     left: 10px;
     background: #0077cc;
     color: white;
