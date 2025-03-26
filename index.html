@@ -94,11 +94,6 @@
         
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
-    </main>
-    <footer>
-        <p>University of Michigan, School of Information, <span id="year"></span> | <a href="https://www.si.umich.edu/">UMSI</a></p>
-    </footer>
-    <script src="script.js"></script>
 <!-- Feedback Form -->
 <section id="feedback-section">
     <h2>We Value Your Feedback</h2>
@@ -106,11 +101,11 @@
     
     <form id="feedbackForm" action="https://formspree.io/f/mnnpqole" method="POST" onsubmit="handleSubmit()">
       <label>
-        Your email:
+        <h2>Your email:</h2>
         <input type="email" name="email" required>
       </label>
       <label>
-        Your message:
+        <h2>Your message:</h2>
         <textarea name="message" required></textarea>
       </label>
       <button type="submit">Send</button>
@@ -118,6 +113,13 @@
     
     <div id="feedback-response"></div>
   </section>
+
+  </main>
+
+  <footer>
+    <p>University of Michigan, School of Information, <span id="year"></span> | <a href="https://www.si.umich.edu/">UMSI</a></p>
+</footer>
+<script src="script.js"></script>
   
 </body>
 </html>
