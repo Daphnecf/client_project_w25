@@ -130,9 +130,12 @@ figcaption {
 footer {
     text-align: center;
     background: #00274C;
-    color: white;
     padding: 10px;
     margin-top: 20px;
+}
+
+footer p{
+    color: white;
 }
 
 footer a {
