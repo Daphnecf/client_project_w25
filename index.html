@@ -96,7 +96,28 @@
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
     </main>
     <footer>
-        <p>University of Michigan, School of Information | <a href="https://www.si.umich.edu/">UMSI</a></p>
+        <p>University of Michigan, School of Information, <span id="year"></span> | <a href="https://www.si.umich.edu/">UMSI</a></p>
     </footer>
+    <script src="script.js"></script>
+<!-- Feedback Form -->
+<section id="feedback-section">
+    <h2>We Value Your Feedback</h2>
+    <p>Please let us know your thoughts or any suggestions for improving this portal.</p>
+    
+    <form id="feedbackForm" action="https://formspree.io/f/mnnpqole" method="POST" onsubmit="handleSubmit()">
+      <label>
+        Your email:
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Your message:
+        <textarea name="message" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+    
+    <div id="feedback-response"></div>
+  </section>
+  
 </body>
 </html>
